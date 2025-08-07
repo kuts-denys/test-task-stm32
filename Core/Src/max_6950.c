@@ -44,7 +44,7 @@ void MAX6950_UpdateDisplay(uint8_t count) {
   uint8_t digit1 = seconds / 10;
   uint8_t digit0 = seconds % 10;
 
-  // Надсилаємо цифри в регістри драйвера
+  // write digits to the display
   MAX6950_WriteRegister(MAX6950_REG_DIGIT4, digit4);
   MAX6950_WriteRegister(MAX6950_REG_DIGIT3, digit3);
   MAX6950_WriteRegister(MAX6950_REG_DIGIT2,
