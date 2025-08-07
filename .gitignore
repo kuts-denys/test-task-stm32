@@ -6,7 +6,7 @@
 *.o
 *.elf
 *.bin
-*.hex
+*.hexgt
 *.map
 *.d
 *.lst

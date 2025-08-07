@@ -48,12 +48,12 @@ TIM_HandleTypeDef htim6;
 
 /* USER CODE BEGIN PV */
 
+uint8_t timer_count = 60;
+
 bool display_update_required = false;
 bool relay_activation_required = false;
 bool is_timer_active = false;
 bool is_relay_active = false;
-
-uint8_t timer_count = 60;
 
 /* USER CODE END PV */
 
@@ -107,6 +107,8 @@ int main(void) {
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
   MAX6950_Init();
+  bool relay_activation_required = true;
+
   /* USER CODE END 2 */
   uint32_t relay_start_time = 0;
 
