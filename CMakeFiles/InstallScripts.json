@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/denys/test-task/cmake_install.cmake",
+		"/Users/denys/test-task/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

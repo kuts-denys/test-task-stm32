@@ -1,0 +1,6 @@
+/Users/denys/test-task/CMakeFiles/test-task.dir
+/Users/denys/test-task/CMakeFiles/edit_cache.dir
+/Users/denys/test-task/CMakeFiles/rebuild_cache.dir
+/Users/denys/test-task/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/Users/denys/test-task/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/Users/denys/test-task/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
